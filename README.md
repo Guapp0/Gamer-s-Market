@@ -3,6 +3,13 @@
 Gamer's Market é um projeto desenvolvido para fins de aprendizado academico.
 Ainda está incompleta sendo sua única parte funcional o sistema de Login e cadastro que é autenticado e admnistrado usando Firebase da Google.
 
+#Técnologias usadas
+
+HTML 5
+JavaScript
+CSS 3
+FireBase JavaScript SDK 9.22.2
+
 #Como usar
 
 Abra os arquivos .html com um navegador web. Basta baixar todos os arquivos e a página deve funcionar perfeitamente, tenha em mente que 
