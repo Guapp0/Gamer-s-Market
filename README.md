@@ -12,5 +12,5 @@ fazendo assim ser impossível realizar autenticações na tela de login. Entreta
 
 #Aprendizado
 
-É a primeira vez que desenvolvo algo em HTML CSS e JS, como é esperado foi bastante informação para absorver até peço desculpa pela incompletude, porém 
+É a primeira vez que desenvolvo algo em HTML CSS e JS, como é esperado foi bastante informação para absorver até peço desculpa pela incompletude e simplicidade, porém 
 prentendo continuar mexendo neste projeto no futuro quando estiver menos atarefado pois existem muitas features que podem ser exploradas neste tipo de projeto.
