@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+
+<body class="loginscreen">
+    <form>
+        <div>
+            <div><label>Email</label></div>
+            <input type="email" name="email" id="email" placeholder="Digite seu email"/>
+        </div>
+        <div>
+            <div><label>Senha</label></div>
+            <input type="password" name="password" id="password"  placeholder="Digite sua senha"/>
+        </div>
+        <div>
+            <button type="button" class="clear" id="recover-password-button" >Recupera senha</button>
+        </div>
+        <nav>
+            <a href="lhome.html"><button type="button" class="solid" id="login-button" >Entrar</button></a>
+        </nav>
+        <nav>
+        <a href="register.html"><button type="button" class="outline">Cadastrar</button></a>
+        </nav>
+    </form>
+</body>
+<link rel="stylesheet" href="./css/main.css" />
+<script src="./js/script.js" ></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js"></script>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getDatabase } from "firebase/database";
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAVGuBOS8l3jM-UzJkrhnQwpQWHtbs9hBg",
+  authDomain: "gamers-market-5006a.firebaseapp.com",
+  projectId: "gamers-market-5006a",
+  storageBucket: "gamers-market-5006a.appspot.com",
+  messagingSenderId: "1092588472024",
+  appId: "1:1092588472024:web:6bd1c623bfcbb07a1df9ad"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const database = getDatabase(app);
+const auth = getAuth();
+</script>
+</html>
