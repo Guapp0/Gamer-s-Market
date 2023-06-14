@@ -51,5 +51,23 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 const auth = getAuth();
+    
+    sighUP.addEventListener('click', (e)=>{
+
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+    createUserWithEmailAndPassword(auth, email, password)
+  .then((userCredential) => {
+    // Signed in
+    const user = userCredential.user;
+    // ...
+  })
+  .catch((error) => {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    // ..
+  });
+
+})
 </script>
 </html>
